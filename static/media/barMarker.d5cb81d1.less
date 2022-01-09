@@ -1,0 +1,49 @@
+.fs-bar-marker {
+}
+.fs-bar-marker-box {
+  text-align: left;
+  line-height: 1;
+  position: relative;
+  padding: 3px 2px;
+  transform-origin: left bottom;
+  border: 1px solid aqua;
+  border-radius: 3px;
+
+  &.is-visible {
+    animation: 1000ms fsBarMarkerUp 100ms forwards;
+    transform: translate(0, 0) scale(0);
+  }
+  &.is-hidden {
+    animation: 700ms fsBarMarkerDown 100ms forwards;
+    transform: translate(0, -85px) scale(1);
+  }
+}
+.fs-bar-marker-title {
+  color: aqua;
+  font-size: 10px;
+  transform: scale(0.8);
+  transform-origin: left top;
+}
+.fs-bar-marker-text {
+  font-weight: bold;
+  text-shadow: 0 0 2px #fff;
+  color: #fff;
+  font-weight: 16px;
+}
+@keyframes fsBarMarkerUp {
+  from {
+    transform: translate(0, 0) scale(0);
+  }
+  to {
+    transform: translate(0, -85px) scale(1);
+  }
+}
+
+@keyframes fsBarMarkerDown {
+  from {
+    transform: translate(0, -85px) scale(1);
+  }
+  to {
+    transform: translate(0, 0) scale(0);
+  }
+}

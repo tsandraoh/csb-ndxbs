@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "https://tsandraoh.github.io/csb-ndxbs/static/js/main.ba6e2007.chunk.js",
+    "main.js.map": "https://tsandraoh.github.io/csb-ndxbs/static/js/main.ba6e2007.chunk.js.map",
+    "runtime-main.js": "https://tsandraoh.github.io/csb-ndxbs/static/js/runtime-main.f8e0166e.js",
+    "runtime-main.js.map": "https://tsandraoh.github.io/csb-ndxbs/static/js/runtime-main.f8e0166e.js.map",
+    "static/js/2.ac25a730.chunk.js": "https://tsandraoh.github.io/csb-ndxbs/static/js/2.ac25a730.chunk.js",
+    "static/js/2.ac25a730.chunk.js.map": "https://tsandraoh.github.io/csb-ndxbs/static/js/2.ac25a730.chunk.js.map",
+    "index.html": "https://tsandraoh.github.io/csb-ndxbs/index.html",
+    "static/js/2.ac25a730.chunk.js.LICENSE.txt": "https://tsandraoh.github.io/csb-ndxbs/static/js/2.ac25a730.chunk.js.LICENSE.txt",
+    "static/media/barMarker.d5cb81d1.less": "https://tsandraoh.github.io/csb-ndxbs/static/media/barMarker.d5cb81d1.less",
+    "static/media/dotMarker.4a5011bc.less": "https://tsandraoh.github.io/csb-ndxbs/static/media/dotMarker.4a5011bc.less"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8e0166e.js",
+    "static/js/2.ac25a730.chunk.js",
+    "static/js/main.ba6e2007.chunk.js"
+  ]
+}
